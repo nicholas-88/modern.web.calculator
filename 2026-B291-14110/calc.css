@@ -1,0 +1,45 @@
+body{
+justify-content: space-around;
+align-items: center;
+display: flex;
+margin: 150px auto;
+}
+.container{
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+padding-top:50px;
+}
+.button{
+    padding: 6px;
+    border-radius: 50%;
+    font-size:15px; 
+    height: 50px;
+    width: 50px;
+    border:solid black;
+    background-color:rgb(44, 42, 42); 
+    color: white;
+    cursor:pointer;
+}
+#display{
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black;
+    text-align: right;
+background-color:rgb(44, 42, 42); 
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#orange{
+    background-color: orange;
+}
+#big{
+    width:105px;
+    border-radius:40px;
+    grid-column: span 2;
+}
+#clear{
+    background-color:grey;
+    color: black;
+}
